@@ -1,0 +1,62 @@
+
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
+
+#hello {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: #F99A43;
+    color:white;
+
+}
+
+#intro {
+    margin-top: 10%;
+    font-size: 75px;
+    font-weight: 9000;
+    font-size: 100px;
+    padding-bottom: 50px;
+}
+
+#aka {
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+
+#emailme {
+    padding-bottom: 25px;
+
+}
+
+.contact {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 25px;
+
+}
+
+#intro:hover{
+    text-decoration: underline;
+}
+
+#aka:hover {
+    text-decoration: underline;
+}
+
+.contact:hover {
+    text-decoration: underline;
+}
+
+body::selection {
+    background-color: black;
+}
+
