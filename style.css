@@ -59,8 +59,3 @@ body {
 body::selection {
     background-color: black;
 }
-
-::selection {
-    color: white;
-    background: black;
-}
