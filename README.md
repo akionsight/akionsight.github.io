@@ -1,4 +1,4 @@
 # akionsight.github.io
 My portfolio website
 
-See it in action here: https://akionsight.github.io/
+See it in action here: http://akionsight.xyz
