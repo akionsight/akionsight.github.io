@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.pages {
+    margin: 0;
+    padding: 0;
+}
+
+.hi {
+    text-align: center;
+    margin: 0;
+    padding: 3vh;
+    font-family: 'Lobster', cursive; 
+    color: whitesmoke;
+    white-space: normal;
+}
+
+#hi-div {
+    position: fixed;
+    height: 100vh; 
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    background-image: linear-gradient(45deg, #FCA311, #00226a 20%, #CC5A71);
+    animation: breathing 10s ease-in-out infinite;
+}
+
+#hi {
+    font-size: 13vw;
+}
+
+#im {
+    font-size: 10vw;
+}
+
+#akionsight {
+    margin-top: 3vh;
+    font-size: 3vw;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#whoami {
+    margin: 0;
+    
+}
+
+#whoamidiv {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(45deg, #93B7BE , #ff7b6c);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+    animation: breathing 3s ease-in-out infinite;
+}
+
+@keyframes breathing {
+    0% {
+      background-size: 100% 100%;
+    }
+    50% {
+      background-size: 300% 100%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+  }
