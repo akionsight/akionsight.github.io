@@ -29,16 +29,16 @@ html, body {
 }
 
 #hi {
-    font-size: 13vw;
+    font-size: 25vh;
 }
 
 #im {
-    font-size: 10vw;
+    font-size: 20vh;
 }
 
 #akionsight {
     margin-top: 3vh;
-    font-size: 3vw;
+    font-size: 7vh;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -55,6 +55,21 @@ html, body {
     height: 100vh;
     width: 100vw;
     animation: breathing 3s ease-in-out infinite;
+}
+
+.links {
+    padding-left: 12.5vw;
+    padding-top: 3vh;
+    height: 7vh;
+    width: 3.5vw;
+}
+
+.links2 {
+    padding-left: 6vw;
+    padding-top: 3vh;
+    height: 7vh;
+    width: 3.5vw;
+    color: #ffff;
 }
 
 @keyframes breathing {
