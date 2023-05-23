@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    white-space: nowrap;
 }
 
 .pages {
@@ -14,11 +15,11 @@ html, body {
     padding: 3vh;
     font-family: 'Lobster', cursive; 
     color: whitesmoke;
-    white-space: normal;
+
 }
 
 #hi-div {
-    position: fixed;
+    /* position: fixed; */
     height: 100vh; 
     width: 100vw;
     align-items: center;
@@ -29,16 +30,16 @@ html, body {
 }
 
 #hi {
-    font-size: 25vh;
+    font-size: 12vw;
 }
 
 #im {
-    font-size: 20vh;
+    font-size: 9vw;
 }
 
 #akionsight {
     margin-top: 3vh;
-    font-size: 7vh;
+    font-size: 3vw;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -46,17 +47,6 @@ html, body {
     margin: 0;
     
 }
-
-#whoamidiv {
-    padding: 0;
-    margin: 0;
-    background-image: linear-gradient(45deg, #93B7BE , #ff7b6c);
-    background-size: 100% 100%;
-    height: 100vh;
-    width: 100vw;
-    animation: breathing 3s ease-in-out infinite;
-}
-
 .links {
     padding-left: 12.5vw;
     padding-top: 3vh;
