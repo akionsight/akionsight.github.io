@@ -9,7 +9,7 @@ html, body {
     text-align: center;
     margin: 0;
     padding: 2vh;
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Lobster', cursive; 
     color: whitesmoke;
 
 }
@@ -26,11 +26,11 @@ html, body {
 }
 
 #hi {
-    font-size: 8vw;
+    font-size: 12vw;
 }
 
 #im {
-    font-size: 8vw;
+    font-size: 9vw;
 }
 
 #akionsight {
